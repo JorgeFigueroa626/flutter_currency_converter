@@ -1,16 +1,32 @@
-# my_app_calculadora
+# Flutter Convertidor de Monedas
 
-A new Flutter project.
+- Learn how to use manage states using [Flutter Bloc](https://pub.dev/packages/flutter_bloc)
+- Local data persistence using [SQFLite](https://pub.dev/packages/sqflite)
+- Separate the app in multiple layers (presentation, business logic, data)
+- Make request to a Rest API using [Http](https://pub.dev/packages/http)
+- Unit test & widget test
+- Handle exceptions
 
-## Getting Started
+# Architecture
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Image 1](screenshots/Architecture.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Get an API key from [https://fixer.io/](https://fixer.io/)
+- Add the API key in the `RestProvider` class
+
+  ````
+  class RestProvider {
+    static const String _accessKey = '<Your API key>';
+  ````
+
+- Run the command `flutter pub run build_runner watch --delete-conflicting-outputs` to generate the code.
+
+# Screenshots
+
+| Converter Screen                   | Favorites Screen                   | Settings Screen                    |
+|------------------------------------|------------------------------------|------------------------------------|
+| ![Image 1](screenshots/image1.png) | ![Image 2](screenshots/image2.png) | ![Image 3](screenshots/image3.png) |
+
