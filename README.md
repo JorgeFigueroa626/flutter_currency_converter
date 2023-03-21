@@ -28,5 +28,5 @@
 
 | Converter Screen                   | Favorites Screen                   | Settings Screen                    |
 |------------------------------------|------------------------------------|------------------------------------|
-| ![Image 1](screenshots/image1.png) | ![Image 2](screenshots/image2.png) | ![Image 3](screenshots/image3.png) |
+|  <img src="https://github.com/JorgeFigueroa626/flutter_currency_converter/blob/main/image1.png" height="520">  |<img src="https://github.com/JorgeFigueroa626/flutter_currency_converter/blob/main/image2.png" height="520"> | <img src="https://github.com/JorgeFigueroa626/flutter_currency_converter/blob/main/image3.png" height="520"> |
 
