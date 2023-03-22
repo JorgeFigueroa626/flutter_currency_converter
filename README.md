@@ -8,7 +8,7 @@
 - Handle exceptions
 
 # Architecture
-<img src="https://github.com/JorgeFigueroa626/flutter_currency_converter/blob/main/Architecture.png" height="520">
+<img src="https://github.com/JorgeFigueroa626/flutter_currency_converter/blob/main/Architecture.png" height="300">
 # Prerequisites
 
 - Get an API key from [https://fixer.io/](https://fixer.io/)
